@@ -21,6 +21,7 @@ function App() {
     queryFn: fetchAdvice,
     refetchOnReconnect: false,
     refetchOnWindowFocus: false,
+    staleTime: 0,
   })
 
   useEffect(() => {
